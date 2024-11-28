@@ -1,0 +1,9 @@
+Exercício - Modelagem
+
+1. Pude entender as diferenças entre os paradigmas de programação, seus conceitos e suas usabilidades. Vimos também a linha do tempo e entendemos quando cada um surgiu na história, e também a diferença entre linguagens de alto nível e baixo nível.
+
+2. O paradigma de programação mais indicado para implementar o sistema de gerenciamento da biblioteca seria ''c) programação orientada a objetos''.
+-É adequada porque envolve entidades bem definidas (Livros, Autores, Usuários, Empréstimos), que possuem propriedades (atributos) e comportamentos (métodos).
+-Favorece o reuso de código por meio de herança, composição e polimorfismo.
+-Facilita a evolução do sistema por ser modular. Cada entidade pode ser modificada ou estendida sem impacto significativo no restante do código, desde que siga princípios como encapsulamento e abstração.
+-A programação orientada a objetos oferece a estrutura, modularidade e flexibilidade necessárias para modelar de forma eficiente as entidades e interações do sistema de biblioteca, além de facilitar sua evolução futura.
