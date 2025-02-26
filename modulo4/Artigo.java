@@ -1,24 +1,13 @@
 package com.mycompany.app.Model;
 
-public class Artigo {
-    private String titulo;
-    private Autor autor;
+public class Artigo extends Publicacao { //Artigo herda de Publicacao
     private String genero;
     private boolean publicado;
 
     public Artigo(String titulo, Autor autor, String genero, boolean publicado) {
-        this.titulo = titulo;
-        this.autor = autor;
+        super(titulo, autor); // Chama o construtor da classe Publicacao
         this.genero = genero;
         this.publicado = publicado;
-    }
-
-    public String getTitulo() {
-        return titulo;
-    }
-
-    public Autor getAutor() {
-        return autor;
     }
 
     public String getGenero() {
